@@ -1,0 +1,1 @@
+//Write a program to find the frequency of an element in an array
