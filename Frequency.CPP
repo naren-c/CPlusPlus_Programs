@@ -1,8 +1,8 @@
 //Write a program to find the frequency of an element in an array
-#include "iostream.h"
-#include <conio.h>
-#include <iomanip.h>
-#include <stdlib.h>
+#include <iostream>
+#include <conio>
+#include <iomanip>
+#include <stdlib>
 
 using namespace std;
 
