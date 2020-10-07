@@ -1,7 +1,7 @@
-#include<iostream.h>
-#include<conio.h>
-#include<iomanip.h>
-#include<stdlib.h>
+#include<iostream>
+
+using namespace std; 
+
 class isort
 {
 	private:int n,i,c,p,a[20],t;
@@ -40,14 +40,14 @@ void isort::display()
 {
 	cout<<"the array after sorting is";
 	for(i=0;i<n;i++)
-	cout<<setw(3)<<a[i];
+	cout<<a[i];
 }
-void main()
+/* void main()
 {
-	clrscr();
+	//clrscr();
 	isort x;
 	x.getdata();
 	x.sorting();
 	x.display();
-	getch();
-}
+	//getch();
+} */

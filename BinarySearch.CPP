@@ -1,7 +1,7 @@
-#include<iostream.h>
-#include<conio.h>
-#include<iomanip.h>
-#include<stdlib.h>
+#include<iostream>
+
+using namespace std; 
+
 class bisearch
 {
 	private: int i,n,a[30],beg,mid,pos,end,se;
@@ -48,12 +48,12 @@ void bisearch::display()
 	else
 	cout<<"search element is not found";
 }
-void main()
+/* void main()
 {
-	clrscr;
+	//clrscr;
 	bisearch x;
 	x.getdata();
 	x.search();
 	x.display();
-	getch();
-}
+	//getch();
+} */

@@ -1,7 +1,7 @@
-#include<iostream.h>
-#include<conio.h>
-#include<iomanip.h>
-#include<stdlib.h>
+#include<iostream>
+
+using namespace std; 
+
 class sorting
 {
 	private:int a[100],n,c,p,i,t;
@@ -40,14 +40,14 @@ void sorting::display()
 {
 	cout<<"The array after sorting is"<<endl;
 	for(i=0;i<n;i++)
-	cout<<setw(3)<<a[i];
+	cout<<a[i];
 }
-void main()
+/* void main()
 {
-	clrscr();
+//	clrscr();
 	sorting x;
 	x.getdata();
 	x.sort();
 	x.display();
-	getch();
-}
+//	getch();
+} */

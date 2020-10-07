@@ -1,8 +1,7 @@
-#include<iostream.h>
-#include<conio.h>
-#include<stdlib.h>
-#include<iomanip.h>
-#include<math.h>
+#include<iostream>
+
+using namespace std; 
+
 class foverload
 {
 	private:float s;
@@ -20,10 +19,9 @@ class foverload
 			return(sqrt(s*(s-a)*(s-b)*(s-c)));
 		}
 };
-void main()
+/* void main()
 {
 	double x,y,z;
-	clrscr();
 	foverload f;
 	int ans;
 	while(1)
@@ -54,5 +52,5 @@ void main()
 		exit(0);
 	}
 	}
-	getch();
-}
+	
+} */

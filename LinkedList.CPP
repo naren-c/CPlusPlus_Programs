@@ -1,6 +1,7 @@
-#include<iostream.h>
-#include<conio.h>
-#include<iomanip.h>
+#include<iostream>
+
+using namespace std;
+
 class linklist
 {
 	private:
@@ -62,9 +63,8 @@ void linklist::display()
 		tmp=tmp->link;
 	}
 }
-void main()
+/* void main()
 {
-	clrscr();
 	linklist *x=new linklist();
 	x->display();
 	x->append(5);
@@ -77,5 +77,5 @@ void main()
 	x->display();
 	x->append(6);
 	x->count();
-	getch();
-}
+	
+} */

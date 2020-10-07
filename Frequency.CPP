@@ -1,10 +1,7 @@
 //Write a program to find the frequency of an element in an array
-#include <iostream>
-#include <conio>
-#include <iomanip>
-#include <stdlib>
+#include<iostream>
 
-using namespace std;
+using namespace std; 
 
 class frequency
 {
@@ -20,7 +17,7 @@ void frequency::getdata()
     cout<<"Enter the elements"<<endl;
     for(i=0;i<n;i++)
     {
-        cin>>a[i]
+        cin>>a[i];
     }
     cout<<"Enter the element to be searched"<<endl;
     cin>>se;
@@ -28,7 +25,7 @@ void frequency::getdata()
 void frequency::findfrequency()
 {
     count=0;
-    for(i=o;i<n;i++)
+    for(i=0;i<n;i++)
     {
         if(a[i]==se)
         count++;
@@ -41,12 +38,12 @@ void frequency::display()
         else
         cout<<se<<"does not exist"<<endl;
 }
-void main()
+/* void main()
 {
-    clrscr();
+    //clrscr();
     frequency x;
     x.getdata();
     x.findfrequency();
     x.display();
-    getch();
-}
+    //getch();
+} */

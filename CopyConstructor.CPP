@@ -1,7 +1,7 @@
-#include<iostream.h>
-#include<conio.h>
-#include<string.h>
-#include<stdlib.h>
+#include<iostream>
+
+using namespace std; 
+
 class student
 {
 	private:int rno;
@@ -25,12 +25,12 @@ void student::display()
 	cout<<"NAME= "<<name<<endl;
 	cout<<"RNO= "<<rno<<endl;
 }
-void main()
+/* void main()
 {
-	clrscr();
+	//clrscr();
 	student s;
 	s.display();
 	student s1=s;
 	s1.display();
-	getch();
-}
+	//getch();
+} */

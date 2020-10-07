@@ -1,7 +1,7 @@
-#include<iostream.h>
-#include<conio.h>
-#include<iomanip.h>
-#include<stdlib.h>
+#include<iostream>
+
+using namespace std; 
+
 class deletion
 {
 	private:int a[20],n,i,pos,de;
@@ -43,15 +43,15 @@ void deletion::display()
 	{
 	cout<<"the array after deletion"<<endl;
 	for(i=0;i<n;i++)
-	cout<<setw(3)<<a[i];
+	cout<<a[i];
 	}
 }
-void main()
+/* void main()
 {
-	clrscr();
+	//clrscr();
 	deletion d;
 	d.getdata();
 	d.remove();
 	d.display();
-	getch();
-}
+	//getch();
+} */

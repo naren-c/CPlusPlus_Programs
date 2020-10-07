@@ -1,8 +1,9 @@
 //Developed by Naren
-#include<iostream.h>
-#include<iomanip.h>
-#include<conio.h>
+#include<iostream>
 #include<stdlib.h>
+
+using namespace std;
+
 #define n 3
 class queue
 {
@@ -61,14 +62,13 @@ void queue::display()
 	{
 		cout<<"queue contains:";
 		for(i=front;i<=rear;i++)
-		cout<<setw(3)<<a[i];
+		cout<<a[i];
 	}
 	else
 		cout<<"queue is empty";
 }
 void main()
 {
-	clrscr();
 	queue q;
 	int choice,item;
 	while(1)
@@ -89,6 +89,6 @@ void main()
 		case 4:exit(0);
 		default:cout<<"invalid choice";
 	}
-	getch();
+	
 	}
 }
